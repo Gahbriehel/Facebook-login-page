@@ -1,0 +1,68 @@
+.all {
+    background-color: rgb(215, 215, 215);
+    justify-content: space-evenly;
+    padding: 30px 80px;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.fullscreen {
+    justify-content: left;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+
+    
+}
+.fullscreen > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color:rgb(62, 135, 198);
+    
+}
+.mobile {
+    width: 200px;
+    height: 200px;
+    padding: 70px;
+    border: 100px;
+    background-color: rgb(253, 255, 255);
+    margin: 10px;
+    justify-content: right;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+  
+}
+
+.login {
+    background-color: rgb(62, 135, 198);
+    padding: 0.6rem 1.8rem;
+    border-radius: 8px;
+    border: 2px solid;
+    color: white;
+    
+}
+.account {
+    background-color: rgb(57, 197, 57);
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+}
+@media screen and (max-width: 500px) {
+    .mobile {   
+      flex-direction: column;
+ }
+}
+.login:hover {
+    border: 2px solid teal;
+    font-weight: 800;
+}
+.account:hover {
+    border: 2px solid teal;
+    font-weight: 800;
+}
+
